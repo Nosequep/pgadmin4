@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: schema-diff
+spec:
+  containers:
+  - name: schema-diff
+    image: abrahamv5v6/schema-diff:0.0.1
+
+
